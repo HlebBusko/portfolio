@@ -2,7 +2,10 @@ import ButtonMain from "../components/ui/ButtonMain";
 import mainPhotoCircle2 from "../assets/mainPhotoCircle2.JPG";
 function Hero() {
   return (
-    <section id="home" className="sm:pt-32 pt-24 flex justify-center h-screen">
+    <section
+      id="home"
+      className="sm:pt-24 pb-8 pt-18 flex justify-center min-h-screen"
+    >
       <div className="flex flex-col items-center lg:w-[50%] sm:w-[70%] px-4 w-full gap-4">
         <div className="w-66">
           <img
@@ -11,7 +14,7 @@ function Hero() {
             alt="Main Photo"
           />
         </div>
-        <h1 className="text-center text-4xl font-bold">
+        <h1 className="text-center text-4xl font-bold pb-2">
           I'm Hleb Busko, swimming coach and coding passionate based in Warsaw,
           Poland.
         </h1>
