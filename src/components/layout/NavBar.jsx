@@ -59,7 +59,7 @@ function NavBar() {
                 className={
                   "h-full cursor-pointer hover:text-[#F59E0B] flex px-2 items-center rounded w-full transition-all duration-300 font-medium text-[#F1F1F1] whitespace-nowrap"
                 }
-                offset={-70}
+                offset={-80}
                 activeClass={
                   "text-main underline decoration-2 decoration-main underline-offset-20"
                 }
