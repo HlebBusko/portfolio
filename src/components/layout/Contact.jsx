@@ -14,12 +14,21 @@ function Contact() {
         hours or by appointment.
       </p>
       <div className="flex flex-col gap-4 ">
-        <ContactLink icon={<FaGithub size={30} />} info={`My GitHub profile`} />
+        <ContactLink
+          icon={<FaGithub size={30} />}
+          info={`My GitHub profile`}
+          href={`https://github.com/HlebBusko`}
+        />
         <ContactLink
           icon={<FaEnvelope size={28} />}
           info={`hleb.busko@gmail.com`}
+          href={`mailto:hleb.busko@gmail.com`}
         />
-        <ContactLink icon={<FaPhone size={25} />} info={`+48796746210`} />
+        <ContactLink
+          icon={<FaPhone size={25} />}
+          info={`+48796746210`}
+          href={`tel:+48796746210`}
+        />
       </div>
     </section>
   );
