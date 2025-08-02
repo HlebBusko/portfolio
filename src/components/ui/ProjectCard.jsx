@@ -15,9 +15,9 @@ function ProjectCard({
         <img className="rounded-2xl " src={projectImage} alt="Project Image" />
       </div>
       <div className="flex flex-col gap-4">
-        <h1 className="text-2xl font-semibold text-[#F59E0B]">{heading}</h1>
+        <h1 className="text-3xl font-semibold text-[#F59E0B]">{heading}</h1>
         <h2 className="text-sm md:text-md">{description}</h2>
-        <h2 className="font-semibold">{techStack}</h2>
+        <h2 className="font-semibold text-lg mt-auto">{techStack}</h2>
         <div className="flex flex-col gap-2">
           <a
             href={gitHubLink}

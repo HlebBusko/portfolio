@@ -10,7 +10,7 @@ function AboutMe() {
           <img className="rounded-2xl" src={mainPhoto} alt="" />
         </div>
         <div className="flex flex-col gap-2 md:w-[70%]">
-          <h2 className="lg:text-lg text-lg md:text-sm">
+          <h2 className="lg:text-lg text-lg md:text-md">
             I'm Hleb — a dedicated frontend developer in the making with a
             background in professional swimming and coaching. For years, I’ve
             teached people how to swim. Now, I’ve redirected that same
@@ -20,7 +20,7 @@ function AboutMe() {
             include a personal instructor site and a dropshipping storefront —
             both designed, coded, and deployed independently.
           </h2>
-          <h2 className="lg:text-lg text-lg md:text-sm">
+          <h2 className="lg:text-lg text-lg md:text-md">
             I approach coding the same way I approach training: with
             consistency, problem-solving, and a drive to improve every day. My
             goal is to join a team where I can grow as a developer and

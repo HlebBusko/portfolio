@@ -2,7 +2,7 @@ import ButtonMain from "../ui/ButtonMain.jsx";
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-scroll";
 import NavLink from "../ui/NavLink.jsx";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo3.png";
 import menu from "../../assets/menu.svg";
 import close from "../../assets/close.svg";
 
@@ -31,7 +31,6 @@ function NavBar() {
     { link: "Home", id: "home" },
     { link: "About me", id: "about" },
     { link: "Projects", id: "projects" },
-    { link: "Contact", id: "contact" },
   ];
 
   return (
@@ -42,7 +41,7 @@ function NavBar() {
         } z-50`}
       >
         <div className="left-section mr-auto">
-          <Link to="hero" smooth={true} duration={300} offset={-100}>
+          <Link to="home" smooth={true} duration={300} offset={-100}>
             <img
               className="cursor-pointer w-auto h-14 hover:scale-110 transition-all duration-500 "
               src={logo}
@@ -61,7 +60,7 @@ function NavBar() {
                 }
                 offset={-80}
                 activeClass={
-                  "text-main underline decoration-2 decoration-main underline-offset-20"
+                  "underline decoration-2 text-[#F59E0B] decoration-[#F59E0B] underline-offset-20"
                 }
               ></NavLink>
             ))}
@@ -86,7 +85,7 @@ function NavBar() {
             onClick={handleMenu}
           />
           <Link
-            to="enroll"
+            to="contact"
             smooth={true}
             duration={600}
             className="inline-block"
@@ -113,7 +112,7 @@ function NavBar() {
               "w-full flex align-center justify-center py-2 transition-all ease-in-out duration-400 bg-[#0F0F0F] text-[#F1F1F1] hover:text-[#F59E0B] hover:bg-main font-medium cursor-pointer"
             }
             offset={-80}
-            activeClass={"!bg-main !text-white"}
+            activeClass={"!text-[#F59E0B]"}
             onClick={handleMenu}
           ></NavLink>
         ))}
