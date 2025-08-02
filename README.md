@@ -15,7 +15,7 @@ It showcases my skills, projects, and includes contact information for job oppor
 To run locally:
 
 ```bash
-git clone https://github.com/YourUsername/your-portfolio-repo.git
+git clone https://github.com/HlebBusko/portfolio.git
 cd portfolio
 npm install
 npm run dev
