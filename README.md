@@ -24,3 +24,11 @@ npm run dev
 ## 🌐 Live Demo
 
 https://portfoliohleb.netlify.app/
+
+## Contact
+
+Feel free to reach out to me via:
+
+- Email: [hleb.busko@gmail.com](mailto:hleb.busko@gmail.com)
+- GitHub: [https://github.com/HlebBusko]
+- Phone : +48796746210
